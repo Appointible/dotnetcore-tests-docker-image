@@ -8,7 +8,7 @@ RUN redis-server --daemonize yes
 EXPOSE 6379
 
 
-RUN echo "------------ DONE -------------"; 
+RUN echo "------------ DONE -------------"
 	
 # Default to console.
 CMD ["/bin/sh"]
