@@ -1,0 +1,1 @@
+docker build -t localtests . && docker run -it localtests
